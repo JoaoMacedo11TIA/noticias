@@ -89,8 +89,7 @@ header .desktop {
 
 main {
     max-width: 1110px;
-    margin-inline: auto                             ;
-
+    margin-inline: auto;
 }
 
 .primeira-secao {
@@ -202,7 +201,7 @@ main {
 
     }
 
-    @media(min-width:110px) {
+    @media(min-width:1110px) {
         header > button {
             display: none;
         }
@@ -220,7 +219,7 @@ main {
 
           }
 
-          header.desktop a:hover {
+          header .desktop a:hover {
             color: var(--vermillion);
           }
 
@@ -235,7 +234,7 @@ main {
 
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 1.75 rem;
+            gap: 1.75rem;
         }
 
         .primeira-secao picture {
